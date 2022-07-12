@@ -1,0 +1,243 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div.contanier{
+	width: 1347px;
+	height: 944px;
+	margin: 0 auto;
+	background-color: #A8A975;
+
+}
+div.cabecalho{
+	position: relative;
+	width: 1347px;
+	height: 86px;
+	margin: 0 auto;
+	background-image: url("cabecalho.gif");
+}
+	div.marca{
+	text-align: center;
+	padding-top: 25px;
+	font-family: Arial;
+	font-size: 13px;
+}
+div.logotipo{
+	position: relative;
+	width: 252px;
+	height: 74px;
+	left: 245px;
+	
+}
+div.iconeum{
+	position: relative;
+	width: 11px;
+	height: 11px;
+	float: left;
+	left: 0px;
+	top: -55px;
+}
+div.iconedois{
+	position: relative;
+	width: 11px;
+	height: 11px;
+	float: left;
+	left: 10px;
+	top: -55px;
+}
+div.iconetres{
+	position: relative;
+	width: 11px;
+	height: 11px;
+	float: left;
+	left: 20px;
+	top: -55px;
+}
+div.principal{
+	position: relative;
+	float: left;
+	left: 840px;
+}
+ul.menu-h-dd{
+	list-style: none;
+	font-size: 16px;
+	position: relative;
+	float: left;
+	left: 145px;
+	top: -1px;
+
+}
+ul.menu-h-dd li{
+	width: 100px;
+	height: 23px;
+	float: left;
+	padding-top: 12px;
+
+	text-align: center;
+	
+}
+ul.menu-h-dd li + li{
+	background-image: url("menu.gif");
+	background-repeat: no-repeat;
+}
+ul.menu-h-dd li a{
+	text-decoration: none;
+	color: #000;
+}
+
+ul.menu-h-dd li ul{
+	position: absolute;
+	list-style: none;
+	display: none;
+	width: 250px;
+}
+
+ul.menu-h-dd li:hover ul{
+	display: block;
+
+}
+div.menu{
+	position: relative;
+	width: 1347px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-top: 1px solid #A8A975;
+	
+
+	
+}
+div.Um{
+	position: relative;
+	width: 214px;
+	height: 183px;
+	float: left;
+	left: 0px;
+	background-image: url("lateral.gif");
+}
+div.esquerda{
+	position: relative;
+	width: 185px;
+	height: 185px;
+	float: left;
+	right: 0px;
+	background-image: url("coluna_esq.gif");
+}
+div.Dois{
+	position: relative;
+	width: 214px;
+	height: 183px;
+	float: right;
+	left: 185px;
+	top: 0px;
+	background-image: url("lateral.gif");
+	
+
+}
+
+div.direita{
+	position: relative;
+	width: 185px;
+	height: 185px;
+	float: right;
+	right: 214px;
+
+	background-image: url("coluna_dir.gif");
+}
+div.direita p{
+	position: relative;
+	width: 165px;
+	height: 190px;
+	float: right;
+	padding: 2px;
+	top: 45px;
+	text-align: justify;
+	font-size: 14px;
+	font-family: Arial;
+	color: #FFF;
+}
+div.esquerda p{
+	position: relative;
+	width: 165px;
+	height: 190px;
+	float: right;
+	right: 18px;
+	padding: 2px;
+	top: 45px;
+	text-align: justify;
+	font-size: 14px;
+	font-family: Arial;
+	color: #FFF;
+}
+div.centro{
+	position: relative;
+	width: 549px;
+	height: 214px;
+	margin: 0 auto;
+
+	background-image: url("main_header.jpg");
+
+}
+div.centro p{
+	position: relative;
+	width: 390px;
+	line-height: 2px;
+	text-align: right;
+	font-size: 20px;
+	font-family: Arial;
+	color: #FFFFFF;
+	left: 130px;
+	top: 110px;
+	
+}
+div.centro h6{
+	position: relative;
+	width: 390px;
+	line-height: 10px;
+	text-align: right;
+	font-size: 11px;
+	font-family: Arial;
+	color: #FFFFFF;
+	left: 130px;
+	top: 120px;	
+}
+div.centro a{
+	position: relative;
+	width: 390px;
+	line-height: 10px;
+	text-align: right;
+	font-size: 11px;
+	font-family: Arial;
+	color: #FFFFFF;
+	left: 445px;
+	top: 130px;
+	
+}
+div.Texto{
+	position: relative;
+	width: 549px;
+	height: 449px;
+	margin: 0 auto;
+	padding-bottom: center;
+	background-image: url("artigo.jpg");
+}
+div.Texto p{
+	padding: 10px;
+	text-align: justify;
+	font-family: Arial;
+	font-size: 14px;
+}
+p.imagem img{
+    display: inline-block;
+    float: left;
+    padding-right: 8px;
+
+}
+div.rodape{
+	position: relative;
+	width: 549px;
+	height: 28px;
+	margin: 0 auto;
+	padding-bottom: center;
+	background-image: url("rodape.jpg");
+}
